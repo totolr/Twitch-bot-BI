@@ -1,0 +1,24 @@
+{
+  "name": "twitch-bot-bi",
+  "version": "1.0.0",
+  "description": "Le bot twitch de la chaîne Twitch leburgerimpromptu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totolr/Twitch-bot-BI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totolr/Twitch-bot-BI/issues"
+  },
+  "homepage": "https://github.com/totolr/Twitch-bot-BI#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ws": "^8.18.3"
+  }
+}
