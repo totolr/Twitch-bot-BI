@@ -1,10 +1,12 @@
 {
   "name": "twitch-bot-bi",
+  "type": "module",
   "version": "1.0.0",
   "description": "Le bot twitch de la chaîne Twitch leburgerimpromptu",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -e 'if (!process.env.OAUTH_TOKEN) throw new Error(\"Fichier .env manquant !\");' && node bot.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,6 @@
   },
   "homepage": "https://github.com/totolr/Twitch-bot-BI#readme",
   "dependencies": {
-    "dotenv": "^17.2.1",
-    "ws": "^8.18.3"
+    "dotenv": "^17.2.1"
   }
 }
